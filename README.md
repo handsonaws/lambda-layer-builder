@@ -1,3 +1,8 @@
+
+![Hands-on AWS](https://github.com/handsonaws/common-assets/blob/3245081c723dc7f20982872762fe5cf4daee1b61/images/logotype.png?raw=true "Hands-on AWS")
+
+
+
 # AWS Lambda Layer Builder
 
 A docker-based utility to create lambda layer packages for Python runtime on demand.  
@@ -23,7 +28,7 @@ Clone this repo & follow the steps in `windows-commands.bat`
 3. Update `requirements.txt` (local) to list the libraries and versions your project needs. Example:
     ```
     pandas==1.4.2
-    requests=2.27.1
+    requests==2.27.1
     ```
 
 4. Copy `requirements.txt` from host to container
