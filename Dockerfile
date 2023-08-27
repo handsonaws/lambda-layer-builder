@@ -1,9 +1,9 @@
-FROM amazonlinux:2018.03
+FROM amazonlinux:2023
 RUN ulimit -n 1024 && yum -y update && yum -y install \
-    python38\
-    python38-pip\
-    python38-devel \
+    python3.11\
+    python3.11-pip\
+    python3.11-devel \
     zip \
     && yum clean all
-RUN python3 -m pip install pip==22.1.2 
-RUN pip install virtualenv==20.14.1
+RUN python3.11 -m pip install pip==23.2.1 
+RUN pip install virtualenv==20.24.3
