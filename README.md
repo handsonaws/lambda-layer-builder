@@ -43,7 +43,7 @@ Clone this repo & follow the steps in `windows-commands.bat`
 
 6. This script performs the following steps:
     - creates and activates a python virtualenv
-    - installs the requirested libraries (requirements.txt) from pip
+    - installs the requested libraries (requirements.txt) from pip
     - creates a zip file named `python.zip` with all installed packages
 
 7. Copy the `python.zip` thus created from container to host
